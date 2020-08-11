@@ -38,10 +38,11 @@ Tunde Aderinwale
     <gap:splash src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 	
     <feature name="http://api.phonegap.com/1.0/network"/>    
-    <gap:plugin name="org.apache.cordova.network-information"  />
-    <gap:plugin name="org.apache.cordova.console"  />
-    <gap:plugin name="org.apache.cordova.inappbrowser"  />
-    <gap:plugin name="org.apache.cordova.network-information"  />
+    <plugin name="cordova-plugin-network-information" spec="~2.0.2" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~4.0.0" />
+    <plugin name="cordova-plugin-console" spec="~1.1.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~4.0.0" />
+    <plugin name="cordova-plugin-device" spec="~2.0.3" />
     <access origin="*" subdomains="true" />
 
     
