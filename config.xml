@@ -39,9 +39,8 @@ Tunde Aderinwale
 	
     <feature name="http://api.phonegap.com/1.0/network"/>    
     <plugin name="cordova-plugin-network-information" spec="~2.0.2" />
-    <plugin name="cordova-plugin-inappbrowser" spec="~4.0.0" />
+    <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-console" spec="~1.1.0" />
-    <plugin name="cordova-plugin-inappbrowser" spec="~4.0.0" />
     <plugin name="cordova-plugin-device" spec="~2.0.3" />
     <access origin="*" subdomains="true" />
 
