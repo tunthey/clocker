@@ -37,13 +37,8 @@ Tunde Aderinwale
     <gap:splash src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
     <gap:splash src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
 	
-	<feature name="http://api.phonegap.com/1.0/file-transfer"/>
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
 
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.geolocation"  />
     <gap:plugin name="org.apache.cordova.dialogs"  />
     <gap:plugin name="org.apache.cordova.device"  />
     <gap:plugin name="org.apache.cordova.network-information"  />
